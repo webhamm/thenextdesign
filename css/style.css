@@ -1,0 +1,556 @@
+/* Web Fonts -------------------- */
+
+/*@font-face {*/
+/*  font-family: 'Abolition Regular';*/
+/*  src: url('../fonts/abolition-regular-webfont.eot');*/
+/*  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),*/
+/*       url('../fonts/abolition-regular-webfont.woff') format('woff'),*/
+/*       url('../fonts/abolition-regular-webfont.ttf') format('truetype');*/
+/*}*/
+
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Vollkorn', serif;
+  font: 1em/1.5 'Vollkorn', serif;
+  color: #878787;
+}
+
+.main-header {
+  margin: auto;
+  width: 90%;
+}
+
+h1,
+h2 {
+  font-family: 'Lora', serif;
+}
+
+h1 {  
+  font-size: 3.0rem; /* 90px/16px  */
+  color: green;
+  text-align: center;
+  text-transform: lower-alphacase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 5px 8px 10px rgba(0,0,0,.8);
+  margin: 12px 0 0 ;
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  text-align: center;
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+h4 {
+   font-size: 3rem; /* 90px/16px  */
+  color: green;
+  text-align: center;
+  
+  text-transform: lower-alphacase;
+  font-weight: normal;
+  line-height: 1.3;
+  
+
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+  
+  margin: 12px 0 0 ;
+}
+
+
+p {
+  text-align: center;
+}
+
+img {
+  
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+  color: rgb(0, 0, 138);
+}
+
+
+/*****************
+ NAVIGATION
+******************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 200px 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+  
+nav a {
+  font-weight: 700;
+  padding: 25px 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: rgb(0, 204, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: navy;
+}
+
+a:active {
+  color: lightgreen;
+}
+
+/* Main Styles --------------------- */
+
+/*.main-header {*/
+  
+/*  padding: 70px;*/
+/*  margin: 50px;*/
+/*  height: 350px; */
+/*  text-align: right;*/
+/*}*/
+
+.header-content {
+  
+ 
+    /*margin: 0;*/
+}
+
+.header-logo{
+  float: left;
+}
+
+.title {
+ clear: right;
+ padding: 20px;
+ 
+}
+  /*background:*/
+  /*              #fff url('../img/h-logo-27b.jpg') no-repeat left;*/
+  /*background-size: 100%;   */
+  
+  
+  /*
+////////////////////////////////////////
+ Absolute Centering
+//////////////////////////////////////// 
+*/
+/*.Absolute-Center { */
+   /* Set your own height: percents, ems, whatever! 
+  width: 50%; /* Set your own width: percents, ems, whatever! 
+  overflow: auto; /* Recommended in case content is larger than the container 
+  margin: auto; /* Center the item vertically & horizontally 
+  position: absolute; /* Break it out of the regular flow 
+  top: 0; left: 0; bottom: 0; right: 0; /* Set the bounds in which to center it, relative to its parent/container 
+/*}*/
+  
+  
+  
+ /*background:   linear-gradient(steelblue, transparent 90%),*/
+  /*              linear-gradient(0deg, #fff, transparent),*/
+  
+  
+/*  background-image: radial-gradient(at top left,#000 0%, steelblue 45%, firebrick 100%);*/
+/*  background-image: radial-gradient(at top left,#000, steelblue, firebrick);*/
+  
+/*  background-image: radial-gradient(circle at left,#000, steelblue);*/  
+/*  background-image: linear-gradient(45deg,#000, steelblue); */
+/*  background-image: linear-gradient(to bottom,#000, steelblue);*/
+
+
+
+
+
+body {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*#top{*/
+/*   text-align: center;*/
+/*    margin: 0;*/
+/*}*/
+
+.header-logo {
+  
+}
+
+.title {
+  font-size: 3.0rem; /* 90px/16px  */
+  color: green;
+  text-align: right;
+ 
+  text-transform: lower-alphacase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 5px 8px 10px rgba(0,0,0,.8);
+  margin: 12px 0 0 ;
+}
+  
+  
+  /*color:navy;*/
+ 
+   /* 26px/16px */
+  /*letter-spacing: .065em;*/
+  /*font-weight: 200;*/
+  /*border-bottom: 2px solid;*/
+  /*padding-bottom: 10px;*/
+
+
+.intro {
+  font-size: 1.45em; /* 20px/16px */
+  color: navy;
+  line-height: 1.6;  
+}
+
+.pp {
+    color: black;
+    text-align: left;
+    line-height: 1;
+  }
+
+.terms {
+  color: black;
+  text-align: left;
+  font-size: .75em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content,
+
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+  
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 5px solid #00008A;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.wildlife {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid navy;
+  margin: 105px 0 60px;
+  background: #434a52 url('../img/D_1749.JPG') no-repeat center;
+  background-size: cover;
+  box-shadow: 15px 15px green;
+  
+  border-radius: 20px 10px 20px 10px;
+  
+ 
+/*  box-shadow: inset 20px 20px 5px rgba(1,1,1,1);*/
+/*  box-shadow: 5px 5px 30px 10px rgba(0,0,0,.8);*/
+/*shorthand version*/  
+/* border-radius: 55%; */  /*  border-radius: 50px 10px;*/  
+/* to edit images, see below*/
+  /* border-radius: 55%;
+   width: 500px;
+   height: 500px; */  
+    
+}
+
+.events {
+  color: green;
+  text-align: center;
+  padding: 8% 2%;
+  margin: 10%;
+  font-size: 1.5em;
+  background: navy;
+  box-shadow: inset -1px -1px 10px 10px rgba(1,1,1,1);
+   border-radius: 20px 10px 20px 10px;
+}
+
+/*.arrow {*/
+/*  width: 50px;*/
+/*  margin-top: 150px;*/
+
+
+
+/* -------- CONTACT PAGE -----------*/
+
+form {
+    background: green ;
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all label have the same size and are properly align */
+    color: black;
+    display: inline-block;
+    width: 50px 50px;
+    text-align: left;
+}
+
+input, textarea {
+
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+
+/* ---- CONTACT FORM VALIDATION ----*/
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+
+/* Floated Columns ------------------ */
+.info,
+.seats
+ {
+  width: 46.5%;
+}
+
+.tips {
+
+  padding: 0 9px 3px;
+  display: inline-block;
+}
+
+
+
+.seats,
+.info{
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Media Queries -------------------- */
+
+/*@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  body { background: darkred; }
+}
+
+@media (min-width: 481px) and (max-width:700px) {
+  body { background: seagreen; }
+ p {
+    color: white;
+  }
+}*/
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+}
+
+  .wildlife {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+}
+}
+@media (max-width: 768px) {
+.primary-content,
+.secondary-content {
+    width: 100%;
+    padding: 20px;
+    border: top-none;
+}
+
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+}
+  .title {
+    font-size: 1.3rem;
+    border-style: none;
+}
+
+  h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+}
+
+  h4 {
+    font-size: 2rem;
+  }
+  .arrow {
+    display: none;
+}
+
+  .intro {
+    font-size: 1rem;
+  
+}
+
+  .resorts,
+  .tips {
+    float: none;
+    width: 100%;
+}
+
+  .main-footer {
+    padding: 20px 0;
+    border-bottom: none;
+  
+}
+
+  .social-icon {
+    max-height: 8%;
+    width: 8%;
+  }
+  
+}
