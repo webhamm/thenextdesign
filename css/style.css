@@ -8,7 +8,7 @@
 /*}*/
 
 body {
-  float: left;
+  /*float: left;*/
   margin: 0;
   padding: 0;
   width: 100%;
@@ -16,16 +16,16 @@ body {
 }
 
 header {
-  float: left;
+  /*float: left;*/
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width:100%;
 }
 
-.main-header {
-    margin: 0%;
-    width: 100%;
-}
+/*.main-header {*/
+/*    margin: 0%;*/
+/*    width: 100%;*/
+/*}*/
 
 h1,
 h2 {
@@ -81,6 +81,11 @@ h4 {
 }
 
 
+/****************************
+  HEADING / NAV 
+  ALIGNMENT / SIZING
+  **************************/
+
 p {
   text-align: center;
 }
@@ -115,18 +120,17 @@ nav {
   padding: 10px 0;
   margin: 20px 0 0;
   background: #00004B;
+  display: block;
   
 }
 
 nav ul {
   list-style: none;
-  margin: 200px 10px;
+  margin: 20px 10px;
   padding: 0;
 }
 
-nav li {
-  display: inline-block;
-}
+
   
 nav a {
   font-weight: 700;
@@ -178,30 +182,17 @@ body {
 
 .header-logo{
   float: left;
-}
-
-.title {
- /*clear: right;*/
- margin: auto;
- padding-top: 15px;
- position: absolute;
- right: 2%;
+  
  
 }
 
 
-
-
-/*#top{*/
-/*   text-align: center;*/
-/*    margin: 0;*/
-/*}*/
-
-.header-logo {
-  
-}
-
 .title {
+ /*clear: right;*/
+ /*margin: auto;*/
+ padding-top: 15px;
+ /*position: absolute;*/
+ /*right: 2%;*/
   font-size: 2.5rem; /* 90px/16px  */
   color: green;
   text-align: right;
@@ -209,7 +200,7 @@ body {
   font-weight: normal;
   line-height: 1.3;
   text-shadow: 5px 8px 10px rgba(0,0,0,.8);
-  margin: 0 ;
+  
 }
   
   
@@ -233,7 +224,7 @@ body {
   color: red;
   font-size: 1.2em;
   text-align: right;
-  position: absolute;
+  /*position: absolute;*/
   right: 2%;
   top: 12%;
   
@@ -452,7 +443,8 @@ input:focus:invalid {
 
 @media (max-width: 1024px) {
   .primary-content,
-  .secondary-content {
+  .secondary-content,
+  .main-header{
     width: 90%;
 }
 
@@ -470,7 +462,8 @@ input:focus:invalid {
 }
 
   .main-header {
-    max-height: 380px;
+    width: 100%;
+    max-height: 100%;
     padding: 50px 25px 0;
 }
   .title {
@@ -513,11 +506,11 @@ input:focus:invalid {
   
 
   
-  #logo {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;
-  }
+  /*#logo {*/
+  /*  float: left;*/
+  /*  margin-left: 5%;*/
+  /*  text-align: left;*/
+  /*  width: 45%;*/
+  /*}*/
   
 }
